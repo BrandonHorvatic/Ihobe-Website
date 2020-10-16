@@ -1,0 +1,5 @@
+Colors {
+    green: 97b551
+    orange: e6af5c
+    blue: 75bde7
+}

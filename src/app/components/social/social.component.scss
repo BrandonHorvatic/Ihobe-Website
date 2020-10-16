@@ -1,0 +1,130 @@
+//variables
+$basic-dark-color: #212121;
+$basic-light-color: #fff;
+$fb-color: #3b5998;
+$tw-color: #00aced;
+$g-plus: #dd4b39;
+$dribbble: #ea4c89;
+$pinterest: #cb2027;
+$insta: #bc2a8d;
+$in: #007bb6;
+$vimeo: #1ab7ea;
+$border-radius: 0px;
+$font-size: 25px;
+
+/*common styles !!!YOU DON'T NEED THEM */
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #686868;
+  position: relative;
+  font-size: 2em;
+  font-weight: 600;
+  padding-bottom: .5em;
+  margin: auto;
+}
+
+.effect {
+  width: 100%;
+  padding: 0px;
+  background-color: #fff;
+  
+  
+  
+  &:nth-child(2) {
+    margin-top: 0px;
+  }
+  
+  &:nth-child(2n+1) {
+    background-color: #fff;
+    
+    h2 {
+      color: #fff;
+    }
+  }
+  
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  a {
+    
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+.effect {
+  // display: flex;
+  
+  a {
+    text-decoration: none !important;
+    color: $basic-light-color;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius;
+    margin-right: 20px;
+    font-size: $font-size;
+    overflow: visible;
+    position: relative;
+    
+    i {
+      position: relative;
+      z-index: 3;
+    }
+    
+    &.fb {
+      background-color: $fb-color;
+    }
+    
+    &.tw {
+      background-color: $tw-color;
+    }
+    
+    &.g-plus {
+      background-color: $g-plus;
+    }
+    
+    &.pinterest {
+      background-color: $pinterest;
+    }
+    
+    &.insta {
+      background-color: $insta;
+    }
+    
+    &.in {
+      background-color: $in;
+    }
+    
+  }
+}
+
+/* aeneas effect */
+
+.effect.aeneas {
+  
+  a {
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, ;
+    
+    i {
+      transition: transform 0.4s linear 0s;
+    }
+    
+    &:hover {
+      transform: rotate(360deg);
+      border-radius: 50%;
+      
+      i {
+        transform: rotate(-360deg);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900);
+
+.container {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5em;
+    
+}
+
+h2 {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #686868;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 2em;
+}
+
+h3 {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #686868;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #686868;
+}
+
+body {
+    color: fff;
+    background: white;
+  }
+  .wrap {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .wrap p{
+    font-size: 20px;
+  }
+  .wrap h1{
+    font-size: 30px;
+  }
+
+  /* Acordeon styles */
+  .tab {
+    margin-bottom: 8px;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  label {
+    position: relative;
+    display: block;
+    background: #686868;
+    color: #fff;
+    font-weight: bold;
+    line-height: 3;
+    cursor: pointer;
+  }
+  .tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    color: black;
+    -webkit-transition: max-height 0.35s;
+    -o-transition: max-height 0.35s;
+    transition: max-height 0.35s;
+  }
+  
+  .tab-content p {
+    margin: 1em;
+  }
+  /* :checked */
+  input:checked ~ .tab-content {
+    max-height: 10em;
+  }
+  /* Icon */
+  label::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+  }
+  input[type="checkbox"] + label::after {
+    content: "+";
+  }
+  
+  input[type="checkbox"]:checked + label::after {
+    content: "-";
+  }
+  
+  .tab-content li,.tab-content a{
+    text-decoration: none;
+    list-style: none;
+  }
+  .tab-content a:hover{
+    color:black;
+  }
+
+
+  
