@@ -2,6 +2,7 @@
 
 .container {
   background-color: #fff;
+  margin-top: 5em;
 }
 
 h1 {
@@ -18,7 +19,8 @@ h2 {
     color: #686868;
     font-size: 2em;
     font-weight: 600;
-    padding-bottom: 2em;
+    padding-bottom: .8em;
+    text-align: center;
 }
 
 h3 {
@@ -40,7 +42,6 @@ p {
 .parent {
     display: flex;
     flex-wrap: wrap;
-    height: 60em;
 }
 
 .split {
@@ -170,6 +171,39 @@ img {
   margin-bottom: 1.25rem;
 }
 
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 25em;
+}
+
+.button {
+  padding-top: .5em;
+  font-family: 'Montserrat', sans-serif;
+   background-color: #686868;
+   width: 60%;
+   display: block;
+   color: white;
+   border-radius: 20px;
+   padding: .5em;
+   text-decoration: none;
+   font-size: 1.5em;
+   margin: 3% auto 7%;
+   position: relative;
+   text-align: center;
+   -webkit-transition: all .6s ease-out;
+    transition: all .6s ease-out;
+    font-weight: 500;
+}
+
+
+.button:hover {
+  background-color: #21283b;
+  transform: scale(1);
+}
+
 @media (max-width: 990px) {
 
   .parent {
@@ -206,3 +240,10 @@ img {
 }
 }
 
+.block {
+  position: relative;
+  top: 0;
+  height: 8em;
+  width: 100%;
+  background-color: #696969;
+}

@@ -2,14 +2,24 @@
 
 .container {
   background-color: #fff;
+  margin-top: 6em;
+
 }
+
+.block {
+    position: relative;
+    top: 0;
+    height: 8em;
+    width: 100%;
+    background-color: #696969;
+  }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #686868;
     font-size: 3em;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     padding-bottom: 1em;
     
 }

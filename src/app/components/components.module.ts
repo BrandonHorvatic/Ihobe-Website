@@ -20,6 +20,7 @@ import { SocialComponent } from './social/social.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductsRouteComponent } from './products-route/products-route.component';
 import { ProfitScienceLiquidComponent } from './profit-science-liquid/profit-science-liquid.component';
+import { TributeComponent } from './tribute/tribute.component';
 @NgModule({
     imports: [
         CommonModule,
@@ -27,7 +28,7 @@ import { ProfitScienceLiquidComponent } from './profit-science-liquid/profit-sci
         NgbModule,
         NouisliderModule,
         RouterModule,
-        JwBootstrapSwitchNg2Module
+        JwBootstrapSwitchNg2Module,
     ],
     declarations: [
         ComponentsComponent,
@@ -44,6 +45,7 @@ import { ProfitScienceLiquidComponent } from './profit-science-liquid/profit-sci
         ProductsComponent,
         ProductsRouteComponent,
         ProfitScienceLiquidComponent,
+        TributeComponent,
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]

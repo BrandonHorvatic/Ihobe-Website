@@ -4,18 +4,22 @@ import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { ComponentsComponent } from './components/components.component';
-import { ProfileComponent } from './examples/profile/profile.component';
-import { SignupComponent } from './examples/signup/signup.component';
-import { LandingComponent } from './examples/landing/landing.component';
-import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ProductsComponent } from './components/products/products.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
+import { SocialComponent } from './components/social/social.component';
+import { ProductsRouteComponent } from './components/products-route/products-route.component';
+import { ProfitScienceLiquidComponent } from './components/profit-science-liquid/profit-science-liquid.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home',             component: ComponentsComponent },
-    { path: 'user-profile',     component: ProfileComponent },
-    { path: 'signup',           component: SignupComponent },
-    { path: 'landing',          component: LandingComponent },
-    { path: 'nucleoicons',      component: NucleoiconsComponent }
+    { path: 'about-us',         component: AboutUsComponent },
+    { path: 'ihobe-international-solutions',     component: ProductsComponent },
+    { path: 'faqs',           component: FaqsComponent },
+    { path: 'social',          component: SocialComponent },
+    { path: 'dust-suppression-solutions',          component: ProductsRouteComponent },
+    { path: 'profit-science-liquid',          component: ProfitScienceLiquidComponent },
 ];
 
 @NgModule({

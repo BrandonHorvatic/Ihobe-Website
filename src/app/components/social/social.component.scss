@@ -14,7 +14,22 @@ $font-size: 25px;
 
 /*common styles !!!YOU DON'T NEED THEM */
 
+.padding {
+  padding-bottom: 2.5em;
+}
+
+p {
+  padding-bottom: 0.4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #686868;
+  position: relative;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
 h2 {
+  padding-top: 2em;
   font-family: 'Montserrat', sans-serif;
   color: #686868;
   position: relative;
@@ -127,4 +142,52 @@ h2 {
     }
   }
 }
+
+.fill-form {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+
+}
+
+input {
+  margin-top: 10px;
+  width: 15rem;
+}
+
+textarea {
+  margin-top: 10px;
+  width: 15rem;
+}
+
+.help {
+  font-size: .5rem;
+}
+
+.button {
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #686868;
+  width: 15rem;
+  display: block;
+  color: white;
+  border-radius: 20px;
+  padding: .5em 0;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 10px auto; 
+  position: relative;
+  text-align: center;
+  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;
+  font-weight: 500;
+}
+
+
+.button:hover {
+  background-color: #21283b;
+  transform: scale(1);
+  cursor: pointer;
+}
+
 
