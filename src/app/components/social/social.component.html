@@ -1,6 +1,5 @@
 <div class="container">
 
-  <section class="section">
 
   <div class="row">
     <h2>Contact Us!</h2>
@@ -50,11 +49,11 @@
 
         <!-- cell -->
         <div class="form-field">
-          <input type="cell" name="cell" class="input" placeholder="Cellphone Number" [(ngModel)]="cell" required
+          <input type="cell" name="cell" class="input" placeholder="Cellphone Number" [(ngModel)]="cell" required minlength="7"
             #cellInput="ngModel">
 
           <div class="help is-error" *ngIf="cellInput.invalid && cellInput.dirty">
-            Cell is required.
+            Cell is required and needs to be valid.
           </div>
         </div>
 
@@ -85,5 +84,4 @@
     </div>
 
 
-  </section>
 </div>

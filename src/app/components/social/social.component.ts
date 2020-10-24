@@ -19,7 +19,7 @@ export class SocialComponent implements OnInit {
   }
 
   processForm() {
-    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
+    const allInfo = `Name: ${this.name}; Email: ${this.email}; Cell: ${this.cell}; Company: ${this.company}; Message: ${this.message}`;
     alert(allInfo); 
   }
 

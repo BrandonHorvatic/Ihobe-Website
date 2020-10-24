@@ -1,25 +1,84 @@
 .container {
-    padding-top: 3rem;
-    vertical-align: middle;
-    
+    width: 50%;
+    padding: 1rem 0;
 }
-.center {
-    width: 70%;
-    padding: 10px;
-    margin: 20px;
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    position: relative;
+    float: left;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h2 {
     margin: auto;
-    display: flex;
-    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    color: #686868;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 2em;
 }
 
-img {
-    border-radius: 50%;
-    width: 20rem;
-
-}
 
 p {
-    text-align: center;
-    margin: 30px;
-    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
 }
+
+.row {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+
+
+.image {
+    overflow: hidden;
+    width: 18rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.image img {
+    max-width: 100%;
+    vertical-align: top;
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.image:hover img,
+.image.hover img {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+}
+
+.info-text {
+    padding: 4rem 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.info-text p {
+  font-size: .8rem;
+  line-height: 1.5rem;
+  float: left;
+}
+
+
+b {
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    
+}
+
+
+
+
+
+ 
