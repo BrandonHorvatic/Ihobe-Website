@@ -53,8 +53,8 @@ p {
 
 .image:hover img,
 .image.hover img {
-    -webkit-transform: scale(1.6);
-    transform: scale(1.6);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .info-text {
@@ -64,7 +64,7 @@ p {
 }
 
 .info-text p {
-  font-size: .8rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   float: left;
 }
@@ -72,7 +72,7 @@ p {
 
 b {
     font-weight: 600;
-    font-size: .8rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     
 }

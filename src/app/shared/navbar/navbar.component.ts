@@ -1,5 +1,5 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
-import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
+import { Location, LocationStrategy, PathLocationStrategy, ViewportScroller } from '@angular/common';
 
 @Component({
     selector: 'app-navbar',
@@ -10,8 +10,12 @@ export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
 
-    constructor(public location: Location, private element : ElementRef) {
+    constructor(public location: Location, private element : ElementRef, private viewPortScroller : ViewportScroller) {
         this.sidebarVisible = false;
+    }
+
+    onClickScroll(elementId: string): void {
+        this.viewPortScroller.scrollToAnchor(elementId);
     }
 
     ngOnInit() {

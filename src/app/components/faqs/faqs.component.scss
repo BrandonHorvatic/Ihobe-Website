@@ -116,5 +116,18 @@ body {
     color:black;
   }
 
+@media (max-width: 990px) {
+  input[type="checkbox"] + label::after {
+    content: "";
+  }
+  
+  input[type="checkbox"]:checked + label::after {
+    content: "";
+  }
 
+  label {
+    line-height: 2;
+  }
+  
+}
   

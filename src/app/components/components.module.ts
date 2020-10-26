@@ -29,6 +29,7 @@ import { TributeComponent } from './tribute/tribute.component';
         NouisliderModule,
         RouterModule,
         JwBootstrapSwitchNg2Module,
+        
     ],
     declarations: [
         ComponentsComponent,

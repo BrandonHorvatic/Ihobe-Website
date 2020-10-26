@@ -2,17 +2,16 @@
 
 
 .container {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 2rem 0;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #686868;
-    position: relative;
-    float: left;
     font-size: 3em;
     font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 h2 {
@@ -30,7 +29,6 @@ p {
 }
 
 .row {
-    padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
 

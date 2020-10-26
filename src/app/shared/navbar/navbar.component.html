@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="500">
     <div class="container">
         <div class="navbar-translate">
-            <!-- <img src="./assets/img/logo-no-bg.png" alt=""> -->
+            <a href="#home"><img src="./assets/img/logo-navbar.png" alt=""></a>
             <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
                 <span class="navbar-toggler-bar"></span>
                 <span class="navbar-toggler-bar"></span>
@@ -10,20 +10,21 @@
         </div>
         <div class="navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#home"><p>Home</p></a>
+                    
+                </li> -->
+                <li class="nav-item" (click)="onClickScroll('about-us')">
+                    <p>About Us</p>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">About Us</a>
+                <li class="nav-item" (click)="onClickScroll('ihobe-international-solutions')">
+                    <p>Ihobe International Solutions</p>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Ihobe International Solutions</a>
+                <li class="nav-item" (click)="onClickScroll('faqs')">
+                    <p>FAQS</p>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">FAQS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Social</a>
+                <li class="nav-item" (click)="onClickScroll('social')">
+                    <p>Social</p>
                 </li>
             </ul>
         </div>
