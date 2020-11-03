@@ -14,10 +14,7 @@ import { ProfitScienceLiquidComponent } from './components/profit-science-liquid
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home',             component: ComponentsComponent },
-    { path: 'about-us',         component: AboutUsComponent },
-    { path: 'ihobe-international-solutions',     component: ProductsComponent },
-    { path: 'faqs',           component: FaqsComponent },
-    { path: 'social',          component: SocialComponent },
+
     { path: 'dust-suppression-solutions',          component: ProductsRouteComponent },
     { path: 'profit-science-liquid',          component: ProfitScienceLiquidComponent },
 ];
@@ -28,7 +25,8 @@ const routes: Routes =[
     BrowserModule,
     RouterModule.forRoot(routes,{
       useHash: true,
-      anchorScrolling: 'enabled'
+      anchorScrolling: 'enabled',
+      scrollPositionRestoration: 'enabled',
     })
   ],
   exports: [

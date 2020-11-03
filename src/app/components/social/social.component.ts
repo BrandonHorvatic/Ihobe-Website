@@ -18,9 +18,12 @@ export class SocialComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
   processForm() {
     const allInfo = `Name: ${this.name}; Email: ${this.email}; Cell: ${this.cell}; Company: ${this.company}; Message: ${this.message}`;
     alert(allInfo); 
   }
+
+  
 
 }

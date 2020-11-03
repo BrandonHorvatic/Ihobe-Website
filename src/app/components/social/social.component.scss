@@ -11,11 +11,13 @@ $vimeo: #1ab7ea;
 $border-radius: 0px;
 $font-size: 25px;
 
-.container {
-  padding: 2rem 0;
-}
 
 /*common styles !!!YOU DON'T NEED THEM */
+
+.container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
 .padding {
   padding-bottom: 2.5rem;

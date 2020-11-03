@@ -21,6 +21,8 @@ import { ProductsComponent } from './products/products.component';
 import { ProductsRouteComponent } from './products-route/products-route.component';
 import { ProfitScienceLiquidComponent } from './profit-science-liquid/profit-science-liquid.component';
 import { TributeComponent } from './tribute/tribute.component';
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
     imports: [
         CommonModule,
@@ -29,7 +31,7 @@ import { TributeComponent } from './tribute/tribute.component';
         NouisliderModule,
         RouterModule,
         JwBootstrapSwitchNg2Module,
-        
+        HttpClientModule,
     ],
     declarations: [
         ComponentsComponent,

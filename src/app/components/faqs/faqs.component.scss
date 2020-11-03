@@ -71,6 +71,7 @@ body {
     font-weight: bold;
     line-height: 3;
     cursor: pointer;
+    border-radius: 10px;
   }
   .tab-content {
     max-height: 0;
@@ -87,7 +88,7 @@ body {
   }
   /* :checked */
   input:checked ~ .tab-content {
-    max-height: 10em;
+    max-height: 50em;
   }
   /* Icon */
   label::after {
@@ -130,4 +131,5 @@ body {
   }
   
 }
-  
+
+
