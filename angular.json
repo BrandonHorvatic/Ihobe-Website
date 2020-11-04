@@ -26,8 +26,13 @@
               "src/assets/sass/paper-kit.scss",
               "src/assets/css/demo.css",
               "src/assets/css/nucleo-icons.css"
+              
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/sendEmail.js",
+              "src/assets/js/smtp.js"
+            ]
           },
           "configurations": {
             "production": {
