@@ -25,7 +25,7 @@ const routes: Routes =[
     BrowserModule,
     RouterModule.forRoot(routes,{
       useHash: true,
-      anchorScrolling: 'enabled',
+      anchorScrolling: 'disabled',
       scrollPositionRestoration: 'enabled',
     })
   ],

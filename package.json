@@ -29,6 +29,7 @@
     "@angular/platform-browser-dynamic": "9.0.6",
     "@angular/router": "9.0.6",
     "@ng-bootstrap/ng-bootstrap": "6.0.0",
+    "@ng-toolkit/universal": "^1.1.21",
     "awesome-typescript-loader": "^5.2.1",
     "body-parser": "^1.19.0",
     "bootstrap": "4.1.2",
@@ -45,7 +46,8 @@
     "rxjs": "6.5.4",
     "rxjs-compat": "6.5.4",
     "source-map-loader": "^1.1.0",
-    "zone.js": "0.10.2"
+    "zone.js": "0.10.2",
+    "webpack-cli": "^3.1.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.900.6",
