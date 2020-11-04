@@ -11,6 +11,7 @@ import { SocialComponent } from './components/social/social.component';
 import { ProductsRouteComponent } from './components/products-route/products-route.component';
 import { ProfitScienceLiquidComponent } from './components/profit-science-liquid/profit-science-liquid.component';
 
+
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home',             component: ComponentsComponent },
@@ -30,6 +31,7 @@ const routes: Routes =[
     })
   ],
   exports: [
+    RouterModule
   ],
 })
 export class AppRoutingModule { }
