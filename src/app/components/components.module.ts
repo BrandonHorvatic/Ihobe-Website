@@ -22,6 +22,7 @@ import { ProductsRouteComponent } from './products-route/products-route.componen
 import { ProfitScienceLiquidComponent } from './profit-science-liquid/profit-science-liquid.component';
 import { TributeComponent } from './tribute/tribute.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     imports: [
@@ -49,6 +50,7 @@ import { HttpClientModule } from '@angular/common/http';
         ProductsRouteComponent,
         ProfitScienceLiquidComponent,
         TributeComponent,
+        HomeComponent,
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]
