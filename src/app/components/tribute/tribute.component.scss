@@ -40,16 +40,15 @@ p {
 .image img {
     max-width: 100%;
     vertical-align: top;
-    -webkit-transition: all 2s ease-out;
-    transition: all 2s ease-out;
-    -webkit-transform: scale(1);
-    transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 2s ease-in-out;
+	transition: 2s ease-in-out;
 }
 
-.image:hover img,
-.image.hover img {
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+.image:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 .info-text {
