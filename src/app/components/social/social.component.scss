@@ -152,7 +152,11 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
   text-align: center;
-
+  padding: 1rem 0 1rem;
+  background-color: #686868;
+  margin-right: 35%;
+  margin-left: 35%;
+  border-radius: 10px;
 }
 
 input {
@@ -172,27 +176,54 @@ textarea {
 .button {
   border: 0px;
   font-family: 'Montserrat', sans-serif;
-  background-color: #686868;
+  background-color: #bebebe;
   width: 15rem;
   display: block;
-  color: white;
+  color: #686868;
   border-radius: 20px;
   padding: .5em 0;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 10px auto; 
   position: relative;
   text-align: center;
   -webkit-transition: all .6s ease-out;
   transition: all .6s ease-out;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 
 .button:hover {
-  background-color: #21283b;
+  background-color: #2e2e2e;
   transform: scale(1);
   cursor: pointer;
+  color: #bebebe
+}
+
+@media (max-width: 991px) {
+  .fill-form {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+}
+@media (max-width: 767px) {
+  .fill-form {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+@media (max-width: 460px) {
+  .fill-form {
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 418px) {
+  .fill-form {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
 }
 
 

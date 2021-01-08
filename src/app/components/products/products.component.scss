@@ -8,9 +8,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.container {
-  padding: 1rem 0;
-}
 
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -391,10 +388,22 @@ button:focus+.design-container {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 430px) {
   .flip-card-container {
 
-    width: 26em;
+    width: 24em;
+    height: 14em;
+    margin: 40px;
+  
+    perspective: 1000px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .flip-card-container {
+
+    width: 22em;
     height: 14em;
     margin: 40px;
   
