@@ -16,14 +16,6 @@ h2 {
     padding-bottom: 2em;
 }
 
-h3 {
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-    color: #686868;
-    font-size: 1.5em;
-    font-weight: 400;
-}
-
 p {
 	font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -34,18 +26,7 @@ body {
     color: fff;
     background: white;
   }
-  .wrap {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  }
   
-  .wrap p{
-    font-size: 20px;
-  }
-  .wrap h1{
-    font-size: 30px;
-  }
-
   /* Acordeon styles */
   .tab {
     margin-bottom: 8px;
@@ -109,7 +90,7 @@ body {
     content: "-";
   }
   
-  .tab-content li,.tab-content a{
+   .tab-content a{
     text-decoration: none;
     list-style: none;
   }
