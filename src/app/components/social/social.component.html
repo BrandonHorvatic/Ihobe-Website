@@ -1,6 +1,5 @@
 <head>
-  <meta name="Contact Ihobe International"
-      content="Contact us for dust suppression and road stabilization solutions.">
+  <meta name="Contact Ihobe International" content="Contact us for dust suppression and road stabilization solutions.">
 </head>
 
 <div class="container" id="social">
@@ -12,10 +11,15 @@
 
   <div class=" effect aeneas">
     <div class="buttons">
-      <!-- <a href="#" class="fb" title="Join us on Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="#" class="tw" title="Join us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#" class="insta" title="Join us on Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a> -->
-      <a href="https://www.linkedin.com/in/kyle-flanagan-56828a26/?originalSubdomain=za" target="_blank" rel="noopener noreferrer" class="in" title="Join us on Linked In"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/pages/category/Product-Service/Ihobe-International-101854791919703/"
+        target="_blank" rel="noopener noreferrer" class="fb" title="Join us on Facebook"><i class="fa fa-facebook"
+          aria-hidden="true"></i></a>
+      <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="tw" title="Join us on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> -->
+      <a href="https://www.instagram.com/ihobe_international/?hl=en" target="_blank" rel="noopener noreferrer" class="insta" title="Join us on Instagram"><i
+          class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/ihobe-international-56828a26/?originalSubdomain=za" target="_blank"
+        rel="noopener noreferrer" class="in" title="Join us on Linked In"><i class="fa fa-linkedin"
+          aria-hidden="true"></i></a>
     </div>
   </div>
 
@@ -27,68 +31,67 @@
     Cape Town,<br>
     South Africa</p>
 
-    <div class="fill-form">
-      
+  <div class="fill-form">
 
-      <!-- form goes here -->
-      <form (ngSubmit)="sendMail()">
 
-        <!-- name -->
-        <div class="form-field">
-          <input type="text" name="name" class="input" placeholder="Name" [(ngModel)]="name" required minlength="3"
-            #nameInput="ngModel">
+    <!-- form goes here -->
+    <form (ngSubmit)="sendMail()">
 
-          <div class="help is-error" *ngIf="nameInput.invalid && nameInput.dirty">
-            Name is required and needs to be at least 3 characters long.
-          </div>
+      <!-- name -->
+      <div class="form-field">
+        <input type="text" name="name" class="input" placeholder="Name" [(ngModel)]="name" required minlength="3"
+          #nameInput="ngModel">
+
+        <div class="help is-error" *ngIf="nameInput.invalid && nameInput.dirty">
+          Name is required and needs to be at least 3 characters long.
         </div>
+      </div>
 
-        <!-- email -->
-        <div class="form-field">
-          <input type="email" name="email" class="input" placeholder="Email" [(ngModel)]="email" required email
-            #emailInput="ngModel">
+      <!-- email -->
+      <div class="form-field">
+        <input type="email" name="email" class="input" placeholder="Email" [(ngModel)]="email" required email
+          #emailInput="ngModel">
 
-          <div class="help is-error" *ngIf="emailInput.invalid && emailInput.dirty">
-            Needs to be a valid email.
-          </div>
+        <div class="help is-error" *ngIf="emailInput.invalid && emailInput.dirty">
+          Needs to be a valid email.
         </div>
+      </div>
 
-        <!-- cell -->
-        <div class="form-field">
-          <input type="cell" name="cell" class="input" placeholder="Cellphone Number" [(ngModel)]="cell" required minlength="7"
-            #cellInput="ngModel">
+      <!-- cell -->
+      <div class="form-field">
+        <input type="cell" name="cell" class="input" placeholder="Cellphone Number" [(ngModel)]="cell" required
+          minlength="7" #cellInput="ngModel">
 
-          <div class="help is-error" *ngIf="cellInput.invalid && cellInput.dirty">
-            Cell is required and needs to be valid.
-          </div>
+        <div class="help is-error" *ngIf="cellInput.invalid && cellInput.dirty">
+          Cell is required and needs to be valid.
         </div>
+      </div>
 
-        <!-- company -->
-        <div class="form-field">
-          <input type="company" name="company" class="input" placeholder="Company" [(ngModel)]="company" required
-            #companyInput="ngModel">
+      <!-- company -->
+      <div class="form-field">
+        <input type="company" name="company" class="input" placeholder="Company" [(ngModel)]="company" required
+          #companyInput="ngModel">
 
-          <div class="help is-error" *ngIf="companyInput.invalid && companyInput.dirty">
-            Company is required.
-          </div>
+        <div class="help is-error" *ngIf="companyInput.invalid && companyInput.dirty">
+          Company is required.
         </div>
+      </div>
 
-        <!-- message -->
-        <div class="form-field">
-          <textarea class="textarea" name="message" placeholder="What's on your mind?" [(ngModel)]="message" required
-            #messageInput="ngModel"></textarea>
+      <!-- message -->
+      <div class="form-field">
+        <textarea class="textarea" name="message" placeholder="What's on your mind?" [(ngModel)]="message" required
+          #messageInput="ngModel"></textarea>
 
-          <div class="help is-error" *ngIf="emailInput.invalid && emailInput.dirty">
-            Your message is required!
-          </div>
+        <div class="help is-error" *ngIf="emailInput.invalid && emailInput.dirty">
+          Your message is required!
         </div>
+      </div>
 
-        <button type="submit" class="button">Submit</button>
-        
-      </form>
-      
-    </div>
-    
-    
+      <button type="submit" class="button">Submit</button>
+
+    </form>
+
   </div>
-  
+
+
+</div>
